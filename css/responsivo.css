@@ -46,12 +46,12 @@
     display: none;
 }
 
-.footer{
+.footer, .footer h3{
 	text-align: center;
 }
 
 .footer_historia{
-	display: none;
+	padding-right: 0px;
 }
 
 .conteudo {
