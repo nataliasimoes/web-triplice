@@ -1,0 +1,94 @@
+.imgcarrossel{
+    height: 500px;
+}
+
+#carouselExampleIndicators{
+    margin-top: 113px;
+}
+
+.carro-titulo{
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: .1em;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.carro-titulo::after{
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: white;
+    margin: 8px auto;
+}
+
+.carro-texto{
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* videos */
+
+.videos{
+    /* padding: 40px; */
+    margin: 0 auto;
+    text-align: center;
+}
+
+.video-teste{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.videos iframe{
+    margin-top: 20px;
+    width: 280px;
+    height: 250px;
+    margin-left: 9px;
+}
+
+.videos a{
+    margin-top: 20px;
+}
+
+.videos a:hover{
+    border-color: #2c4d84;
+    color: #2c4d84;
+}
+
+.video{}
+
+/* Serviços */
+
+.servicos{
+    padding: 40px;
+    background-color: #2c4d84;
+    text-align: center;
+}
+
+.servicos img{
+    width: 160px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.servicos h3{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    /* text-align: center; */
+}
+
+.servicos h2{
+    color: white;
+}
+
+.serv{
+    margin-top: 30px;
+}
