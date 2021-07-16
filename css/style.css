@@ -1,9 +1,6 @@
 /* Estilos Gerais */
-/*azul #293d8d;
-verde #95ae0b */
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
 
 .recuo {
@@ -56,6 +53,8 @@ img {
     margin: 8px auto;
 }
 
+/* Fim dos Estilos Gerais */
+
 /* Header */
 .header {
     width: 100%;
@@ -67,8 +66,10 @@ img {
     background-size: 40%;
     background-repeat: no-repeat;
     z-index: 10;
+    -webkit-box-shadow: 0px 5px 6px 0px rgba(50, 50, 50, 0.59);
+    -moz-box-shadow: 0px 5px 6px 0px rgba(50, 50, 50, 0.59);
+    box-shadow: 0px 5px 6px 0px rgba(50, 50, 50, 0.59);
 }
-
 
 #logoheader {
     margin-top: 5px;
@@ -100,8 +101,10 @@ img {
 }
 
 .header_menu ul li a.menu_ativo {
-	color: #95ae0b;
+    color: #95ae0b;
 }
+
+/* Fim dos estilos da Header */
 
 /* introdução */
 
@@ -162,7 +165,7 @@ img {
 .sobre p {
     text-align: justify;
     font-size: 15px;
-    
+
 }
 
 .sobre_empresa {
@@ -173,12 +176,15 @@ img {
     margin-bottom: 35px;
 }
 
-.sobre_diretoria, .sobre_tecnico{
+.sobre_diretoria,
+.sobre_tecnico {
     margin-top: 30px;
     margin-bottom: 40px;
 }
 
-.sobre_empresa, .sobre_diretoria, .sobre_tecnico{
+.sobre_empresa,
+.sobre_diretoria,
+.sobre_tecnico {
     line-height: 22px;
 }
 
