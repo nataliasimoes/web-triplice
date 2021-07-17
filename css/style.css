@@ -73,8 +73,8 @@ img {
 
 #logoheader {
     margin-top: 5px;
-    height: 77px;
-    width: 115px;
+    height: 70px;
+    width: 110px;
 }
 
 .header_menu {
@@ -109,7 +109,7 @@ img {
 /* introdução */
 
 .introducao {
-    margin-top: 113px;
+    margin-top: 110px;
     width: 100%;
     height: 380px;
     background: url('../img/bg.jpg') no-repeat center;
