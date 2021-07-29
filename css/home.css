@@ -1,3 +1,7 @@
+.carousel{
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
 .imgcarrossel{
     height: 500px;
 }

@@ -112,9 +112,10 @@ img {
     background: url('../img/bg.jpg') no-repeat center;
     background-size: cover;
     text-align: center;
+    text-shadow: black 0.1em 0.1em 0.2em;
     padding-top: 100px;
 }
-.introducao h1 {
+.introducao h1, .introducao-obras h1 {
     font-size: 45px;
     color: white;
     font-weight: bold;
