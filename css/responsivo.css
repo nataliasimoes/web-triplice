@@ -99,4 +99,11 @@
     text-transform: uppercase;
     text-align: center;
 }
+
+/* Responsivo do portifólio */
+
+.cards{
+    display: block;
+}
+
 }

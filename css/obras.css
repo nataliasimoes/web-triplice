@@ -1,3 +1,4 @@
+/* Introdução */
 .introducao-obras {
     margin-top: 108px;
     width: 100%;
@@ -9,11 +10,126 @@
     padding-top: 100px;
 }
 
+/* Cards */
+
 .obras{
     padding: 40px 0;
     text-align: center;
 }
 
-.card{
-    margin-top: 40px;
+.card-obras{
+    width: 18rem;
+    margin-top: 30px;
 }
+
+.cards{
+    margin-top: 10px;
+    display: block;
+}
+
+.titulo-card{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: black 0.1em 0.1em 0;
+
+}
+
+.card-obras .fundo{
+    margin-top: 40px;    
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 4em; 
+}
+
+
+.cruzeta .fundo{
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),
+    url('../img/obras/escola.jpg') no-repeat;
+    background-size: cover;
+}
+
+.parelhas .fundo{
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),
+    url('../img/obras/pista.jpg') no-repeat;
+    background-size: 300px 300px;
+}
+
+.lagoaNova .fundo{
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),
+    url('../img/obras/metal.jpg') no-repeat;
+    background-size: cover
+}
+
+.lagoaNova02 .fundo{
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),
+    url('../img/obras/predio.jpg') no-repeat;
+    background-size: cover
+}
+
+.descricao{
+    margin-top: 10px;
+}
+
+label{
+    color: #95ae0b;
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 14px;
+}
+/* Shutter Out Horizontal */
+.vermais {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    background: #95ae0b;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    color: white;
+    border: none;
+    width: 45%;
+    height: 30px;
+  }
+  .vermais:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #2c4d84;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .vermais:hover, .vermais:focus, .vermais:active {
+    color: white;
+  }
+  .vermais:hover:before, .vermais:focus:before, .vermais:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
