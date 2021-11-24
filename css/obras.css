@@ -29,7 +29,7 @@
 
 .titulo-card{
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     text-shadow: black 0.1em 0.1em 0;
 
@@ -46,31 +46,31 @@
 }
 
 
-.cruzeta .fundo{
+.bodo .fundo{
     background:
     linear-gradient(
       rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),
-    url('../img/obras/escola.jpg') no-repeat;
+    url('../img/obras/bodo-teto.jpeg') no-repeat;
     background-size: cover;
 }
 
-.parelhas .fundo{
+.currais .fundo{
     background:
     linear-gradient(
       rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),
-    url('../img/obras/pista.jpg') no-repeat;
+    url('../img/obras/Currais/Cemiterio/Eletricista.jpeg') no-repeat;
     background-size: 300px 300px;
 }
 
-.lagoaNova .fundo{
+.acariantonio .fundo{
     background:
     linear-gradient(
       rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),
-    url('../img/obras/metal.jpg') no-repeat;
+    url('../img/obras/acari-antoniocapa.jpg') no-repeat;
     background-size: cover
 }
 
-.lagoaNova02 .fundo{
+.acaricapela .fundo{
     background:
     linear-gradient(
       rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),
