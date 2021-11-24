@@ -54,14 +54,6 @@
     background-size: cover;
 }
 
-.currais .fundo{
-    background:
-    linear-gradient(
-      rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),
-    url('../img/obras/Currais/Cemiterio/Eletricista.jpeg') no-repeat;
-    background-size: 300px 300px;
-}
-
 .acariantonio .fundo{
     background:
     linear-gradient(
@@ -74,7 +66,7 @@
     background:
     linear-gradient(
       rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),
-    url('../img/obras/predio.jpg') no-repeat;
+    url('../img/obras/acari-capela-capa.jpg') no-repeat;
     background-size: cover
 }
 
