@@ -10,6 +10,40 @@
     padding-top: 100px;
 }
 
+.introducao h1, .introducao-obras h1 {
+  font-size: 45px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.quote-externo {
+  max-width: 320px;
+  margin: 0 auto;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.quote-externo p {
+  font: 14px;
+  font-style: italic;
+}
+
+.quote-externo p::before,
+.quote-externo p::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: white;
+  margin: 14px auto 10px auto;
+}
+
+.quote-externo cite {
+  font-style: normal;
+  font-size: 12px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
 /* Cards */
 
 .obras{
@@ -133,3 +167,90 @@ label{
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
   }
+
+  /* sobre */
+
+.sobre {
+  padding: 60px 0;
+}
+
+.sobre p {
+  text-align: justify;
+  font-size: 15px;
+
+}
+
+.sobre_empresa {
+  margin-top: 8px;
+}
+
+.foto-sobre{
+  margin-top: 40px;
+}
+
+.empresa h2 {
+  margin-bottom: 35px;
+}
+
+.qualidade {
+  background-color: #2c4d84;
+  padding: 60px 0;
+}
+
+
+.qualidade .subtitulo {
+  color: white;
+}
+
+.qualidade_lista li {
+  text-align: center;
+  padding: 0 40px;
+  bottom: 10px;
+}
+
+.qualidade_lista li h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  margin-top: 40px;
+  color: white;
+}
+
+.qualidade_lista li h3::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #95ae0b;
+  margin: 6px auto;
+}
+
+.qualidade p {
+  color: white;
+  line-height: 20px;
+}
+
+#logo_qualidade {
+  height: 100px;
+  width: 140px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.btn {
+  border: 5px solid #95ae0b;
+  padding: 10px 30px;
+  color: #95ae0b;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: .1em;
+}
+
+.btn:hover {
+  color: white;
+  border-color: white;
+}
