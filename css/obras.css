@@ -3,7 +3,7 @@
     margin-top: 108px;
     width: 100%;
     height: 380px;
-    background: url('../img/obras/carrossel-01.jpg') no-repeat center;
+    background: url('../img/obras/carrossel-02.jpg') no-repeat center;
     background-size: cover;
     text-align: center;
     text-shadow: black 0.1em 0.1em 0.2em;
@@ -86,6 +86,14 @@
       rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),
     url('../img/obras/bodo-janelascapas.jpg') no-repeat;
     background-size: cover;
+}
+
+.acarigaleria .fundo{
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),
+  url('../img/obras/acari-capa.jpg') no-repeat;
+  background-size: cover
 }
 
 .acariantonio .fundo{
@@ -281,10 +289,15 @@ label{
 
   top:0;
 
-  height:70%;
+  height:100%;
 
   width:100%;
 
   position:absolute;
 
+}
+
+.andamento{
+  color: blue;
+  font-weight: bold;
 }

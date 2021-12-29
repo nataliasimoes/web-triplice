@@ -341,5 +341,9 @@ img {
 .andamento{
     color: blue;
     font-weight: bold;
+}
 
+.table{
+    align-self: center;
+    margin: auto;
 }
